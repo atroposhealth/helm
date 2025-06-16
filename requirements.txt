@@ -323,7 +323,7 @@ tokenizers==0.20.3
 toml==0.10.2
 tomli==2.2.1 ; python_full_version < '3.11'
 toolz==1.0.0
-torch==2.2.2
+torch==2.7.1
 torch-fidelity==0.3.0
 torchmetrics==0.11.4
 torchvision==0.17.2
