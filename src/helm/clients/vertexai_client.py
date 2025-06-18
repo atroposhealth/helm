@@ -109,7 +109,7 @@ class VertexAITextClient(VertexAIClient):
         """Make a request"""
         parameters = {
             "temperature": request.temperature,
-            "max_output_tokens": request.max_tokens,
+            "max_output_tokens": None, # request.max_tokens,
             "top_k": request.top_k_per_token,
             "top_p": request.top_p,
             "stop_sequences": request.stop_sequences,
@@ -223,7 +223,7 @@ class VertexAIChatClient(VertexAIClient):
 
         parameters = {
             "temperature": request.temperature,
-            "max_output_tokens": request.max_tokens,
+            "max_output_tokens": None, # request.max_tokens,
             "top_k": request.top_k_per_token,
             "top_p": request.top_p,
             "stop_sequences": request.stop_sequences,
@@ -379,7 +379,7 @@ class VertexAIChatClient(VertexAIClient):
 
         parameters = {
             "temperature": request.temperature,
-            "max_output_tokens": request.max_tokens,
+            "max_output_tokens": None, # request.max_tokens,
             "top_k": request.top_k_per_token,
             "top_p": request.top_p,
             "stop_sequences": request.stop_sequences,

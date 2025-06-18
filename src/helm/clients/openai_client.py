@@ -228,7 +228,8 @@ class OpenAIClient(CachingClient):
             # "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."  # noqa: E501
             # Note that openai>=1.45 is needed for this
             if raw_request["max_tokens"]:
-                raw_request["max_completion_tokens"] = raw_request["max_tokens"]
+                # Even max_completion_token causes an error with some o-series models, so I commented it out.
+                # raw_request["max_completion_tokens"] = raw_request["max_tokens"]
                 raw_request.pop("max_tokens")
             # Avoid error:
             # "Invalid type for 'stop': expected an unsupported value, but got null instead."
