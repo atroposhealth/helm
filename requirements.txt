@@ -73,7 +73,7 @@ filelock==3.18.0
 flake8==5.0.4
 flatbuffers==25.2.10
 flax==0.6.11
-fonttools==4.58.2
+fonttools==4.61.0
 frozenlist==1.6.2
 fsspec==2024.6.1
 ftfy==6.1.3
