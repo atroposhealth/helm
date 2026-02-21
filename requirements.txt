@@ -88,7 +88,7 @@ google-api-python-client==2.171.0
 google-auth==2.40.3
 google-auth-httplib2==0.2.0
 google-cloud-aiplatform==1.91.0 ; python_full_version < '3.10'
-google-cloud-aiplatform==1.96.0 ; python_full_version >= '3.10'
+google-cloud-aiplatform==1.133.0 ; python_full_version >= '3.10'
 google-cloud-bigquery==3.34.0
 google-cloud-core==2.4.3
 google-cloud-resource-manager==1.14.2
