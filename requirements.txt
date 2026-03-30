@@ -239,7 +239,7 @@ pydantic==2.11.5
 pydantic-core==2.33.2
 pydload==1.0.9
 pyflakes==2.5.0
-pygments==2.19.1
+pygments==2.20.0
 pyhocon==0.3.61
 pymongo==4.13.0
 pyparsing==3.2.3
