@@ -21,9 +21,9 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '24'
     - name: Install Yarn
-      run: npm install --global yarn
+      run: npm install -g npm@12 && npm install --global yarn
     - name: Install dependencies
       working-directory: ./helm-frontend
       run: yarn install
@@ -53,10 +53,10 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '24'
     - name: Install Yarn
       working-directory: ./helm-frontend
-      run: npm install --global yarn
+      run: npm install -g npm@12 && npm install --global yarn
     - name: Install dependencies
       working-directory: ./helm-frontend
       run: yarn install
