@@ -19,7 +19,7 @@ async-timeout==5.0.1 ; python_full_version < '3.11'
 attrs==25.3.0
 autokeras==1.0.20
 av==14.4.0
-awscli==1.33.44
+awscli==1.45.28
 beautifulsoup4==4.13.4
 black==24.3.0
 blis==1.2.1
