@@ -246,7 +246,7 @@ pyparsing==3.2.3
 pypinyin==0.49.0
 pyreadline3==3.5.4 ; sys_platform == 'win32'
 pysocks==1.7.1
-pytest==7.2.2
+pytest==9.0.3
 python-dateutil==2.8.2
 python-utils==3.9.1
 pytorch-fid==0.3.0
